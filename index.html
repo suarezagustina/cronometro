@@ -18,6 +18,19 @@
 <body>
     <head></head>
     <main>
+        <div class="container text-center">
+            <h1>Cronometro</h1>
+            <div>
+              <div>
+                <h2><span id="minutos">00</span>:<span id="segundos">00</span></h2>
+              </div>
+              <div>
+                <button type="button" class="btn btn-primary" onclick="iniciarCronometro()">Iniciar</button>
+                <button type="button" class="btn btn-warning mx-3" onclick="pausarCronometro()">Pausar</button>
+                <button type="button" class="btn btn-danger" onclick="reiniciarCronometro()">Reiniciar</button>
+              </div>
+            </div>
+          </div>
     </main>
     <script src="./js/cronometro.js"></script>
     <script
